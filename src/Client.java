@@ -20,7 +20,7 @@ public class Client {
         return clientSurname;
     }
     public String toString(){
-        return "Client{clientId=" + clientId + ", clientName='" + clientName + '\'' + " ,clientSurmane='" + clientSurname + '\'' + "}";
+        return "Client{clientId=" + clientId + ", clientName='" + clientName + '\'' + " ,clientSurname='" + clientSurname + '\'' + "}";
     }
 
     @Override
