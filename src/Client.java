@@ -10,6 +10,18 @@ public class Client {
         this.clientName = clientName;
         this.clientSurname = clientSurname;
     }
+    public int getClientId() {
+        return clientId;
+    }
+    public String getClientName(){
+        return clientName;
+    }
+    public String getClientSurname() {
+        return clientSurname;
+    }
+    public String toString(){
+        return "Client{clientId=" + clientId + ", clientName='" + clientName + '\'' + " ,clientSurmane='" + clientSurname + '\'' + "}";
+    }
 
     @Override
     public boolean equals(Object o) {
