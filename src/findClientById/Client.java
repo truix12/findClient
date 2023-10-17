@@ -1,3 +1,5 @@
+package findClientById;
+
 import java.util.Objects;
 
 public class Client {
